@@ -23,3 +23,8 @@ var res = ddtf().createItem(data);
 element.append(res.item);
 ddtf().enableItemActions(res.id);
 ```
+
+
+
+Let me know if you find a bug or something
+MIT License
