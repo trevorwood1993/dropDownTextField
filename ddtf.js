@@ -137,16 +137,22 @@ if(typeof ddtf != 'function'){
       });
       $(document).keydown(function(e) {
         var list = $('.ddtf-list.open');
+        
       	if(!list.length){
           var focused = $(document.activeElement);
           var target = $('.ddtf');
           focused.addClass("hi");
-          if(focused.parents(target).length){
+          if(focused.parents(target).length && (e.which == 38 || e.which == 40)){
             var ddtf = focused.closest(target);
             var listOpen = ddtf.find(".ddtf-list");
             openList(listOpen);
+            return;
           }
-        	return;
+        }
+        
+        if(e.which == 9){// tab
+        	closeList(list);
+          return;
         }
       
         switch(e.which) {
