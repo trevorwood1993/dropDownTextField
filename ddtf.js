@@ -22,7 +22,7 @@ if(typeof ddtf != 'function'){
       item += 	'<div class="ddtf-list">';
       item += 		'<ul>';
       for (var i = 0; i < listData.length; i++) {
-        item += 	'<li>'+data[i]+'</li>';
+        item += 	'<li>'+listData[i]+'</li>';
       }
       item += 		'</ul>';
       item += 	'</div>';
