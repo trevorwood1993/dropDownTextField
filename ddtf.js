@@ -1,3 +1,8 @@
+/*
+Made by Trevor Wood
+github.com/trevorwood1993
+*/
+
 if(typeof ddtf != 'function'){
   window.ddtf = function(){
   	if ( typeof ddtf.init == 'undefined' ) {
