@@ -1,0 +1,68 @@
+.ddtf *{
+  padding:0; margin:0;
+  box-sizing: border-box;
+}
+.ddtf{
+  margin:5px;
+  position:relative;
+  padding-right:40px;
+  float: left;
+  width:150px;
+}
+.ddtf input{
+  width:100%;
+  position:relative; z-index:20;
+  border:1px solid rgba(200,200,200,1);
+  padding:0px 10px;
+  height: 40px; line-height: 40px;
+  font-size:16px;
+  float: left;
+  border-radius:2px 0 0 2px;
+}
+
+.ddtf-bttn{
+  position:absolute;
+  top:0px;right:0px;
+  z-index:20;
+  height:40px; width:40px;
+  background-color:rgba(200,200,200,1);
+  float: left;
+  cursor:pointer;
+  border-radius:0 2px 2px 0;
+}
+.ddtf-bttn:hover{
+  box-shadow: inset 0 0 250px 0 rgba(0,0,0,.1);
+}
+.ddtf-bttn:active{
+  box-shadow: inset 0 0 250px 0 rgba(0,0,0,.2);
+}
+
+.ddtf-list{
+  background-color:#FFF;
+  width:100%;
+  position: absolute;
+  top:40px;left:0px;
+  z-index:50;
+  border-radius: 2px;
+  max-height:200px;
+  overflow:auto;
+  box-shadow:0 1px 5px 0 rgba(0,0,0,.35);
+  display:none;
+}
+.ddtf-list.open{
+  display:block;
+}
+.ddtf-list li{
+  color:rgba(50,50,50,1);
+  padding:0px 10px;
+  line-height:40px;
+  list-style:none;
+  cursor:pointer;
+}
+.ddtf-list li.sel{
+  box-shadow:inset 0 0 500px 0 rgba(0,0,0,.1);
+}
+
+
+
+
