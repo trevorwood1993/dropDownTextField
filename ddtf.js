@@ -150,7 +150,7 @@ if(typeof ddtf != 'function'){
         }
       
         switch(e.which) {
-            case 13: // up
+            case 13: // enter
             	setSelText(list);
             	closeList(list);
             	break;
