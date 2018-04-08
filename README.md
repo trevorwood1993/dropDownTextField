@@ -3,7 +3,7 @@ https://jsfiddle.net/frogg616/eqcw1m9n/147/
 html input with drop down text
 
 
-##Usage
+Usage
 1. Include both .min files in your project 
     "<link rel="stylesheet" type="text/css" href="/path/ddtf.min.css">"
     "<script src="/path/ddtf.min.js"</script>"
