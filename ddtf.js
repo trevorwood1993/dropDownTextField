@@ -136,18 +136,16 @@ if(typeof ddtf != 'function'){
         }
       });
       $(document).keydown(function(e) {
-      
-        var focused = $(document.activeElement);
-        var target = $('.ddtf');
-        focused.addClass("hi");
-        if(focused.parents(target).length){
-          var ddtf = focused.closest(target);
-          var listOpen = ddtf.find(".ddtf-list");
-          openList(listOpen);
-        }
-      
         var list = $('.ddtf-list.open');
       	if(!list.length){
+          var focused = $(document.activeElement);
+          var target = $('.ddtf');
+          focused.addClass("hi");
+          if(focused.parents(target).length){
+            var ddtf = focused.closest(target);
+            var listOpen = ddtf.find(".ddtf-list");
+            openList(listOpen);
+          }
         	return;
         }
       
