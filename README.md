@@ -1,4 +1,4 @@
-# dropDownTextField
+# DropDownTextField
 https://jsfiddle.net/frogg616/eqcw1m9n/187/ 
 
 HTML input with drop down text for easy selecting
