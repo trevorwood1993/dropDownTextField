@@ -1,4 +1,7 @@
 # DropDownTextField
+
+![DropDownTextField gif](https://github.com/trevorwood222/dropDownTextField/blob/master/DropDownTextField.gif)
+
 https://jsfiddle.net/frogg616/eqcw1m9n/187/ 
 
 HTML input with drop down text for easy selecting
