@@ -7,12 +7,14 @@ github.com/trevorwood222
   padding:0; margin:0;
   box-sizing: border-box;
 }
+
 .ddtf{
   margin:5px;
   position:relative;
   padding-right:40px;
-  float: left;
+  /* float: left; */
   width:150px;
+  display: inline-block;
 }
 .ddtf input{
   width:100%;
@@ -23,6 +25,10 @@ github.com/trevorwood222
   font-size:16px;
   float: left;
   border-radius:2px 0 0 2px;
+  outline: none;
+}
+.ddtf input:focus {
+  border:1px solid rgba(150,150,150,1);
 }
 
 .ddtf-bttn{
@@ -40,6 +46,16 @@ github.com/trevorwood222
 }
 .ddtf-bttn:active{
   box-shadow: inset 0 0 250px 0 rgba(0,0,0,.2);
+}
+
+.ddtf-bttn span{
+  top: 15px;left: 10px;
+  position: absolute;
+  display: block;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  
+  border-top: 10px solid #555;
 }
 
 .ddtf-list{
