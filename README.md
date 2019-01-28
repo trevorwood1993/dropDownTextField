@@ -41,11 +41,15 @@ var element = $('body');
 
 You can also call methods independently if you'd like to do something other than append
 ```javascript
-var element = $('body');
-var data = [1,2,3,4,5];
-var res = ddtf().createItem(data);
-element.append(res.item);
-ddtf().enableItemActions(res.id);
+var result = ddtf().createItem(
+              listData, // Array - List of items
+              options, // Array - 
+              inputName, // String 
+              inputPlaceholder, // String
+              inputValue // String
+            );
+element.append(result.item);
+ddtf().enableItemActions(result.id);
 ```
 
 
